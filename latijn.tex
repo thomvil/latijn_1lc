@@ -1,0 +1,617 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{amsmath,amsthm,amsfonts,amssymb}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage[dutch]{babel}
+\usepackage{hyperref}
+
+\linespread{1.3}
+
+\title{Latijnse Morfologie}
+\author{1LC}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Naamwoorden}
+
+\subsection{Inleiding}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ll}
+\toprule
+\textsc{Benaming} & \textsc{Functies} \\
+\midrule
+nominatief & onderwerp en naamwoordelijk deel \\
+vocatief   & aangesproken persoon \\
+accusatief & lijdend voorwerp; na voorzetsels \\
+genitief   & `van'-bepaling; bijvoeglijke bepaling \\
+datief     & meewerkend voorwerp; na voorzetsels \\
+ablatief   & bijwoordelijke bepaling; na voorzetsels \\
+\bottomrule
+\end{tabular}
+\caption{Latijnse naamvallen}
+\label{tab:naamval}
+\end{table}
+
+\paragraph{Vertaaltips}
+\begin{itemize}
+    \item datief vertaal je meestal met \emph{aan} of \emph{voor} (personen)
+    \item ablatief vertaal je meestal met \emph{met} of \emph{door} (zaken)
+\end{itemize}
+
+
+\subsection{Verbuigingsmodellen}
+
+\subsubsection{Naamwoorden van de eerste klasse}
+\begin{itemize}
+    \item mannelijke naamwoorden op \textbf{-us}, genitief enkelvoud op \textbf{-i}
+    \item enkele mannelijke naamwoorden op \textbf{-er} en \textbf{-a}
+    \item vrouwelijke naamwoorden op \textbf{-a}, genitief enkelvoud op \textbf{-ae}
+    \item onzijdige naamwoorden op \textbf{-um}, genitief enkelvoud op \textbf{-i}
+\end{itemize}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ r | l l l | l l l }
+\toprule
+ & \multicolumn{3}{c|}{\textsc{enk}} & \multicolumn{3}{c}{\textsc{mv}} \\
+ & \multicolumn{1}{c}{\textsc{m}} & \multicolumn{1}{c}{\textsc{v}} & \multicolumn{1}{c|}{\textsc{o}} & \multicolumn{1}{c}{\textsc{m}} & \multicolumn{1}{c}{\textsc{v}} & \multicolumn{1}{c}{\textsc{o}} \\ 
+\midrule
+\textsc{nom} & av-\emph{us} & ros-\emph{a}  & don-\emph{um} & av-\emph{i}    & ros-\emph{ae}   & don-\emph{a} \\
+\textsc{voc} & av-\emph{e}  & ros-\emph{a}  & don-\emph{um} & av-\emph{i}    & ros-\emph{ae}   & don-\emph{a} \\
+\textsc{acc} & av-\emph{um} & ros-\emph{am} & don-\emph{um} & av-\emph{os}   & ros-\emph{as}   & don-\emph{a} \\
+\textsc{gen} & av-\emph{i}  & ros-\emph{ae} & don-\emph{i}  & av-\emph{orum} & ros-\emph{arum} & don-\emph{orum} \\
+\textsc{dat} & av-\emph{o}  & ros-\emph{ae} & don-\emph{o}  & av-\emph{is}   & ros-\emph{is}   & don-\emph{is} \\
+\textsc{abl} & av-\emph{o}  & ros-\emph{$\overline{\text{a}}$} & don-\emph{o} & av-\emph{is} & ros-\emph{is} & don-\emph{is} \\
+\bottomrule
+\end{tabular}
+\caption{Naamwoorden van de eerste klasse}
+\label{tab:nw1}
+\end{table}
+
+\subsubsection{Substantieven van de tweede klasse}
+\begin{itemize}
+    \item genitief enkelvoud op \textbf{-is}
+\end{itemize}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ r | l l l | l l l }
+\toprule
+ & \multicolumn{3}{c|}{\textsc{enk}} & \multicolumn{3}{c}{\textsc{mv}} \\
+ & \multicolumn{1}{c}{\textsc{m}} & \multicolumn{1}{c}{\textsc{v}} & \multicolumn{1}{c|}{\textsc{o}} & \multicolumn{1}{c}{\textsc{m}} & \multicolumn{1}{c}{\textsc{v}} & \multicolumn{1}{c}{\textsc{o}} \\ 
+\midrule
+\textsc{nom} & dux            & mater          & corpus           & duc-\emph{es}   & matr-\emph{es}   & corpor-\emph{a} \\
+\textsc{acc} & duc-\emph{em}  & matr-\emph{em} & corpus           & duc-\emph{es}   & matr-\emph{es}   & corpor-\emph{a} \\
+\textsc{gen} & duc-\emph{is}  & matr-\emph{is} & corpor-\emph{is} & duc-\emph{um}   & matr-\emph{um}   & corpor-\emph{um} \\
+\textsc{dat} & duc-\emph{i}   & matr-\emph{i}  & corpor-\emph{i}  & duc-\emph{ibus} & matr-\emph{ibus} & corpor-\emph{ibus} \\
+\textsc{abl} & duc-\emph{e}   & matr-\emph{e}  & corpor-\emph{e}  & duc-\emph{ibus} & matr-\emph{ibus} & corpor-\emph{ibus} \\
+\bottomrule
+\end{tabular}
+\caption{Substantieven van de tweede klasse}
+\label{tab:subst2}
+\end{table}
+
+\subsubsection{Adjectieven van de tweede klasse}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ r | l l l | l l l }
+\toprule
+ & \multicolumn{3}{c|}{\textsc{enk}} & \multicolumn{3}{c}{\textsc{mv}} \\
+ & \multicolumn{1}{c}{\textsc{m}} & \multicolumn{1}{c}{\textsc{v}} & \multicolumn{1}{c|}{\textsc{o}} & \multicolumn{1}{c}{\textsc{m}} & \multicolumn{1}{c}{\textsc{v}} & \multicolumn{1}{c}{\textsc{o}} \\ 
+\midrule
+\textsc{nom} & felix           & felix           & felix           & felic-\emph{es}   & felic-\emph{es}   & felic-\emph{ia} \\
+\textsc{acc} & felic-\emph{em} & felic-\emph{em} & felix           & felic-\emph{es}   & felic-\emph{es}   & felic-\emph{ia} \\
+\textsc{gen} & felic-\emph{is} & felic-\emph{is} & felic-\emph{is} & felic-\emph{ium}  & felic-\emph{ium}  & felic-\emph{ium} \\
+\textsc{dat} & felic-\emph{i}  & felic-\emph{i}  & felic-\emph{i}  & felic-\emph{ibus} & felic-\emph{ibus} & felic-\emph{ibus} \\
+\textsc{abl} & felic-\emph{i}  & felic-\emph{i}  & felic-\emph{i}  & felic-\emph{ibus} & felic-\emph{ibus} & felic-\emph{ibus} \\
+\bottomrule
+\end{tabular}
+\caption{Adjectieven van de tweede klasse}
+\label{tab:adj2}
+\end{table}
+
+\subsubsection{Vorming van de vocatief}
+De \emph{vocatief} is altijd gelijk aan de nominatief, behalve in het mannelijk enkelvoud van de 1ste klasse:
+\begin{itemize}
+    \item woorden op \textbf{-us}  $\rightarrow$ \textbf{-e}
+    \item woorden op \textbf{-ius} $\rightarrow$ \textbf{-i}
+    \item woorden op \textbf{-eus} blijven onveranderd
+\end{itemize}
+
+\subsubsection{Afwijkingen bij voornaamwoorden van de tweede klasse}
+\begin{itemize}
+    \item Een aantal substantieven vertoont genitief meervoud op \textbf{-ium} \\
+        civis, navis, collis, urbs, pars, fons
+    \item Vier onzijdige substantieven volgen volledig de verbuiging van de adjectieven \\
+        animal, milia, mare, moenia
+    \item Vier adjectieven volgen volledig de verbuiging van de substantieven \\
+        dives, vetus, pauper, princeps
+\end{itemize}
+
+\subsection{Voorzetsels}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ c | c }
+\toprule
+\textsc{Voorzetsels + Acc} & \textsc{Voorzetsels + Abl} \\
+\midrule
+ante    & cum \\
+per     & e(x) \\
+apud    & sub \\
+post    & sine \\
+ad      & de \\
+inter   & in \\
+praeter & a(b) \\
+in      & \\
+ad      & \\
+\bottomrule
+\end{tabular}
+\caption{Voorzetsels met specifieke naamval}
+\label{tab:voorz}
+\end{table}
+
+
+\section{Voornaamwoorden}
+
+\subsection{Persoonlijke voornaamwoorden}
+
+\subsubsection{Reflexief}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ r | l l l | l l l }
+\toprule
+ & \multicolumn{3}{c|}{\textsc{enk}} & \multicolumn{3}{c}{\textsc{mv}} \\
+ & \multicolumn{1}{c}{\textsc{1ste p}} & \multicolumn{1}{c}{\textsc{2de p}} & \multicolumn{1}{c|}{\textsc{3de p}} & \multicolumn{1}{c}{\textsc{1ste p}} & \multicolumn{1}{c}{\textsc{2de p}} & \multicolumn{1}{c}{\textsc{3de p}} \\ 
+\midrule
+\textsc{nom} & ego  & tu   & -    & nos         & vos          & - \\
+\textsc{acc} & me   & te   & se   & nos         & vos          & se \\
+\textsc{gen} & mei  & tui  & sui  & nostr-i/-um & vestr-i/-um  & sui \\
+\textsc{dat} & mihi & tibi & sibi & nobis       & vobis        & sibi \\
+\textsc{abl} & me   & te   & se   & nobis       & vobis        & se \\
+\bottomrule
+\end{tabular}
+\caption{Reflexieve persoonlijke voornaamwoorden}
+\label{tab:reflvnw}
+\end{table}
+
+\subsubsection{Niet-reflexief}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ r | l l l | l l l }
+\toprule
+ & \multicolumn{3}{c|}{\textsc{enk}} & \multicolumn{3}{c}{\textsc{mv}} \\
+ & \multicolumn{1}{c}{\textsc{m}} & \multicolumn{1}{c}{\textsc{v}} & \multicolumn{1}{c|}{\textsc{o}} & \multicolumn{1}{c}{\textsc{m}} & \multicolumn{1}{c}{\textsc{v}} & \multicolumn{1}{c}{\textsc{o}} \\ 
+\midrule
+\textsc{nom} & is  & ea                     & id & ii    & eae       & ea \\
+\textsc{acc} & eum & eam                    & id & eos   & eas       & ea \\
+\textsc{gen} & eius   & eius                   & eius  & eorum & earum     & eorum \\
+\textsc{dat} & ei   & ei                     & ei  & eis (iis)     & eis (iis) & eis (iis) \\
+\textsc{abl} & eo  & e$\overline{\text{a}}$ & eo & eis (iis)     & eis (iis) & eis (iis) \\
+\bottomrule
+\end{tabular}
+\caption{Niet-reflexieve voornaamwoorden}
+\label{tab:ntreflvnw}
+\end{table}
+
+\subsubsection{Opmerkingen}
+
+\begin{itemize}
+    \item Het voorzetsel \emph{cum} wordt in de 1ste en 2de persoon achteraan het voornaamwoord gehecht: \\ \emph{mecum}, \emph{tecum}, \emph{nobiscum}, \emph{vobiscum}
+\end{itemize}
+
+\subsection{Aanwijzende voornaamwoorden}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ r | l l l | l l l }
+\toprule
+ & \multicolumn{3}{c|}{\textsc{enk}} & \multicolumn{3}{c}{\textsc{mv}} \\
+ & \multicolumn{1}{c}{\textsc{m}} & \multicolumn{1}{c}{\textsc{v}} & \multicolumn{1}{c|}{\textsc{o}} & \multicolumn{1}{c}{\textsc{m}} & \multicolumn{1}{c}{\textsc{v}} & \multicolumn{1}{c}{\textsc{o}} \\ 
+\midrule
+\textsc{nom} & hic   & haec  & hoc   & hi    & hae   & haec  \\
+\textsc{acc} & hunc  & hanc  & hoc   & hos   & has   & haec  \\
+\textsc{gen} & huius & huius & huius & horum & harum & horum \\
+\textsc{dat} & huic  & hiuc  & huic  & his   & his   & his   \\
+\textsc{abl} & hoc   & hac   & hoc   & his   & his   & his   \\
+\bottomrule
+\end{tabular}
+\caption{hic, haec, hoc}
+\label{tab:hic}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ r | l l l | l l l }
+\toprule
+ & \multicolumn{3}{c|}{\textsc{enk}} & \multicolumn{3}{c}{\textsc{mv}} \\
+ & \multicolumn{1}{c}{\textsc{m}} & \multicolumn{1}{c}{\textsc{v}} & \multicolumn{1}{c|}{\textsc{o}} & \multicolumn{1}{c}{\textsc{m}} & \multicolumn{1}{c}{\textsc{v}} & \multicolumn{1}{c}{\textsc{o}} \\ 
+\midrule
+\textsc{nom} & iste   & ista   & istud  & isti    & istae   & ista  \\
+\textsc{acc} & istum  & istam  & istud  & istos   & istas   & ista  \\
+\textsc{gen} & istius & istius & istius & istorum & istarum & istorum \\
+\textsc{dat} & isti   & isti   & isti   & istis   & istis   & istis   \\
+\textsc{abl} & isto   & ista   & isto   & istis   & istis   & istis   \\
+\bottomrule
+\end{tabular}
+\caption{iste, ista, istud}
+\label{tab:iste}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ r | l l l | l l l }
+\toprule
+ & \multicolumn{3}{c|}{\textsc{enk}} & \multicolumn{3}{c}{\textsc{mv}} \\
+ & \multicolumn{1}{c}{\textsc{m}} & \multicolumn{1}{c}{\textsc{v}} & \multicolumn{1}{c|}{\textsc{o}} & \multicolumn{1}{c}{\textsc{m}} & \multicolumn{1}{c}{\textsc{v}} & \multicolumn{1}{c}{\textsc{o}} \\ 
+\midrule
+\textsc{nom} & ille   & illa   & illud  & illi    & illae   & illa  \\
+\textsc{acc} & illum  & illam  & illud  & illos   & illas   & illa  \\
+\textsc{gen} & illius & illius & illius & illorum & illarum & illorum \\
+\textsc{dat} & illi   & illi   & illi   & illis   & illis   & illis   \\
+\textsc{abl} & illo   & illa   & illo   & illis   & illis   & illis   \\
+\bottomrule
+\end{tabular}
+\caption{ille, illa, illud}
+\label{tab:ille}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ r | l l l | l l l }
+\toprule
+ & \multicolumn{3}{c|}{\textsc{enk}} & \multicolumn{3}{c}{\textsc{mv}} \\
+ & \multicolumn{1}{c}{\textsc{m}} & \multicolumn{1}{c}{\textsc{v}} & \multicolumn{1}{c|}{\textsc{o}} & \multicolumn{1}{c}{\textsc{m}} & \multicolumn{1}{c}{\textsc{v}} & \multicolumn{1}{c}{\textsc{o}} \\ 
+\midrule
+\textsc{nom} & idem    & eadem   & idem    & iidem           & eaedem          & eadem  \\
+\textsc{acc} & eundem  & eandem  & idem    & eosdem          & easdem          & eadem  \\
+\textsc{gen} & eiusdem & eiusdem & eiusdem & eorundem        & earundem        & eorundem \\
+\textsc{dat} & eidem   & eidem   & eidem   & eisdem (iisdem) & eisdem (iisdem) & eisdem (iisdem)   \\
+\textsc{abl} & eodem   & eadem   & eodem   & eisdem (iisdem) & eisdem (iisdem) & eisdem (iisdem)   \\
+\bottomrule
+\end{tabular}
+\caption{idem, eadem, idem}
+\label{tab:idem}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ r | l l l | l l l }
+\toprule
+ & \multicolumn{3}{c|}{\textsc{enk}} & \multicolumn{3}{c}{\textsc{mv}} \\
+ & \multicolumn{1}{c}{\textsc{m}} & \multicolumn{1}{c}{\textsc{v}} & \multicolumn{1}{c|}{\textsc{o}} & \multicolumn{1}{c}{\textsc{m}} & \multicolumn{1}{c}{\textsc{v}} & \multicolumn{1}{c}{\textsc{o}} \\ 
+\midrule
+\textsc{nom} & ipse   & ipsa   & ipsum  & ipsi    & ipsae   & ipsa  \\
+\textsc{acc} & ipsum  & ipsam  & ipsum  & ipsos   & ipsas   & ipsa  \\
+\textsc{gen} & ipsius & ipsius & ipsius & ipsorum & ipsarum & ipsorum \\
+\textsc{dat} & ipsi   & ipsi   & ipsi   & ipsis   & ipsis   & ipsis   \\
+\textsc{abl} & ipso   & ipsa   & ipso   & ipsis   & ipsis   & ipsis   \\
+\bottomrule
+\end{tabular}
+\caption{ipse, ipsa, ipsum}
+\label{tab:ipse}
+\end{table}
+
+\section{Bijwoord}
+
+Een bijwoord is meestal een bijwoordelijke bepaling bij een werkwoord. Het is onveranderlijk.
+
+De vorming van een bijwoord op basis van een adjectief:
+\begin{itemize}
+    \item 1ste klasse: stam + \textbf{-e} \\
+    Uitzonderingen: bene, aliter, multum
+    \item 2de klasse: stam + \textbf{-iter}, \textbf{-ter}, \textbf{-er} \\
+    Uitzonderingen: facile, triste
+\end{itemize}
+
+\section{Werkwoorden}
+
+\subsection{Regelmatige werkwoorden}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ c | l l l l l }
+\toprule
+ & \textsc{1ste verv} & \textsc{2de verv}  & \textsc{3de verv}  & \textsc{4de verv}  & \textsc{5de verv} \\
+\midrule
+\textsc{Inf} & ama-\emph{re} & mone-\emph{re} & teg-\emph{e}-\emph{re} & audi-\emph{re} & cape-\emph{re} \\
+\midrule
+\multirow{6}{*}{\rotatebox{90}{\textsc{Ind Praesens}}} & am-\emph{o} & mone-\emph{o} & teg-\emph{o} & audi-\emph{o} & capi-\emph{o} \\
+ & ama-\emph{s}   & mone-\emph{s}   & teg-\emph{i}-\emph{s}   & audi-\emph{s}           & capi-\emph{s}   \\
+ & ama-\emph{t}   & mone-\emph{t}   & teg-\emph{i}-\emph{t}   & audi-\emph{t}           & capi-\emph{t}   \\
+ & ama-\emph{mus} & mone-\emph{mus} & teg-\emph{i}-\emph{mus} & audi-\emph{mus}         & capi-\emph{mus} \\
+ & ama-\emph{tis} & mone-\emph{tis} & teg-\emph{i}-\emph{tis} & audi-\emph{tis}         & capi-\emph{tis} \\
+ & ama-\emph{nt}  & mone-\emph{nt}  & teg-\emph{u}-\emph{nt}  & audi-\emph{u}-\emph{nt} & capi-\emph{u}-\emph{nt} \\
+\midrule
+\multirow{2}{*}{\textsc{Imp}} & ama           & mone           & teg-\emph{e}           & audi           & cape \\
+                              & ama-\emph{te} & mone-\emph{te} & teg-\emph{i}-\emph{te} & audi-\emph{te} & capi-\emph{te} \\
+\bottomrule
+\end{tabular}
+\caption{Regelmatige werkwoorden (actief)}
+\label{tab:regwwact}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ c | l l l l l }
+\toprule
+ & \textsc{1ste verv} & \textsc{2de verv}  & \textsc{3de verv}  & \textsc{4de verv}  & \textsc{5de verv} \\
+\midrule
+\textsc{Inf} & ama-\emph{ri} & mone-\emph{ri} & teg-\emph{i} & audi-\emph{ri} & capi \\
+\midrule
+\multirow{6}{*}{\rotatebox{90}{\textsc{Ind Praesens}}} & am-\emph{or} & mone-\emph{or} & teg-\emph{or} & audi-\emph{or} & capi-\emph{or} \\
+ & ama-\emph{ris}  & mone-\emph{ris}  & teg-\emph{e}-\emph{ris}  & audi-\emph{ris}            & capi-\emph{ris}   \\
+ & ama-\emph{tur}  & mone-\emph{tur}  & teg-\emph{i}-\emph{tur}  & audi-\emph{tur}            & capi-\emph{tur}   \\
+ & ama-\emph{mur}  & mone-\emph{mur}  & teg-\emph{i}-\emph{mur}  & audi-\emph{mur}            & capi-\emph{mur} \\
+ & ama-\emph{mini} & mone-\emph{mini} & teg-\emph{i}-\emph{mini} & audi-\emph{mini}           & capi-\emph{mini} \\
+ & ama-\emph{ntur} & mone-\emph{ntur} & teg-\emph{u}-\emph{ntur} & audi-\emph{u}-\emph{ntur} & capi-\emph{u}-\emph{ntur} \\
+\bottomrule
+\end{tabular}
+\caption{Regelmatige werkwoorden (passief)}
+\label{tab:regwwpas}
+\end{table}
+
+\subsubsection{Uitzonderingen}
+\begin{itemize}
+    \item de imperatief enkelvoud van facere is \emph{fac}
+    \item de imperatief enkelvoud van dicere is \emph{dic}
+    \item de imperatief enkelvoud van ducere is \emph{duc}
+\end{itemize}
+
+\subsection{Onregelmatige werkwoorden}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ c | l l l l l l l l }
+\toprule
+\textsc{Inf} & esse & pos-se & i-re & velle & nolle & malle & fi-e-ri & fer-re \\
+\midrule
+\multirow{6}{*}{\rotatebox{90}{\textsc{Ind Praesens}}} & sum & pos-sum & e-o & volo & nolo & malo & fi-o & fer-o \\
+ & es    & pot-es    & i-s   & vis     & non vis    & mavis    & fi-s   & fer-s    \\
+ & est   & pot-est   & i-t   & vult    & non vult   & mavult   & fi-t   & fer-t    \\
+ & sumus & pos-sumus & i-mus & volumus & nolumus    & malumus  & fi-mus & fer-i-mus \\
+ & estis & pot-estis & i-tis & vultis  & non vultis & mavultus & fi-tis & fer-tis  \\
+ & sunt  & pos-sunt  & e-u-nt & volunt  & nolunt     & malunt   & fi-u-nt & fer-u-nt  \\
+\midrule
+\multirow{2}{*}{\textsc{Imp}} & es   & - & i   & - & nole   & - & - & fer   \\
+                              & es-te & - & i-te & - & noli-te & - & - & fer-te \\
+\bottomrule
+\end{tabular}
+\caption{Onregelmatige werkwoorden (actief)}
+\label{tab:onregwwact}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ c | l }
+\toprule
+\textsc{Inf} & fer-ri \\
+\midrule
+\multirow{6}{*}{\rotatebox{90}{\textsc{Ind Praesens}}} & fer-or \\
+ & fer-ris    \\
+ & fer-tur    \\
+ & fer-i-mur \\
+ & fer-i-mini  \\
+ & fer-u-ntur  \\
+\bottomrule
+\end{tabular}
+\caption{Onregelmatige werkwoorden (passief)}
+\label{tab:onregwwpas}
+\end{table}
+
+\subsection{Eerste vervoeging: amare}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ c | c | l l }
+\toprule
+ & & \multicolumn{2}{c}{\textsc{Amare}} \\
+ & & \textsc{Actief} & \textsc{Passief} \\
+\midrule
+\textsc{Infinitief} & \textsc{Praesens} & ama-\emph{re} & ama-\emph{ri} \\
+\midrule
+\multirow{18}{*}{\rotatebox{90}{\textsc{Indicatief}}} & \multirow{6}{*}{\rotatebox{90}{\textsc{Praesens}}} & am-\emph{o} & am-\emph{or} \\
+ & & ama-\emph{s}   & ama-\emph{ris} \\
+ & & ama-\emph{t}   & ama-\emph{tur} \\
+ & & ama-\emph{mus} & ama-\emph{mur} \\
+ & & ama-\emph{tis} & ama-\emph{mini} \\
+ & & ama-\emph{nt}  & ama-\emph{ntur} \\
+\cmidrule{2-4}
+ & \multirow{6}{*}{\rotatebox{90}{\textsc{Imperfectum}}} & ama-\emph{ba}-m & ama-\emph{ba}-r \\
+ & & ama-\emph{ba}-s   & ama-\emph{ba}-ris \\
+ & & ama-\emph{ba}-t   & ama-\emph{ba}-tur \\
+ & & ama-\emph{ba}-mus & ama-\emph{ba}-mur \\
+ & & ama-\emph{ba}-tis & ama-\emph{ba}-mini \\
+ & & ama-\emph{ba}-nt  & ama-\emph{ba}-ntur \\
+\cmidrule{2-4}
+ & \multirow{6}{*}{\rotatebox{90}{\textsc{Futurum Simplex}}} & ama-\emph{b}-o & ama-\emph{b}-or \\
+ & & ama-\emph{b}-\emph{i}-s   & ama-\emph{b}-\emph{e}-ris \\
+ & & ama-\emph{b}-\emph{i}-t   & ama-\emph{b}-\emph{i}-tur \\
+ & & ama-\emph{b}-\emph{i}-mus & ama-\emph{b}-\emph{i}-mur \\
+ & & ama-\emph{b}-\emph{i}-tis & ama-\emph{b}-\emph{i}-mini \\
+ & & ama-\emph{b}-\emph{u}-nt  & ama-\emph{b}-\emph{u}-ntur \\
+\midrule
+\multirow{2}{*}{\textsc{Imperatief}} & & ama & \\
+ & & ama-\emph{te} & \\
+\bottomrule
+\end{tabular}
+\caption{Eerste vervoeging}
+\label{tab:amare}
+\end{table}
+
+\subsection{Tweede vervoeging: monere}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ c | c | l l }
+\toprule
+\multicolumn{4}{c}{\textsc{Monere}} \\
+\midrule
+ & & \textsc{Actief} & \textsc{Passief} \\
+\midrule
+\textsc{Infinitief} & \textsc{Praesens} & ama-\emph{re} & ama-\emph{ri} \\
+\midrule
+\multirow{18}{*}{\rotatebox{90}{\textsc{Indicatief}}} & \multirow{6}{*}{\rotatebox{90}{\textsc{Praesens}}} & mone-\emph{o} & mone-\emph{or} \\
+ & & mone-\emph{s}   & mone-\emph{ris} \\
+ & & mone-\emph{t}   & mone-\emph{tur} \\
+ & & mone-\emph{mus} & mone-\emph{mur} \\
+ & & mone-\emph{tis} & mone-\emph{mini} \\
+ & & mone-\emph{nt}  & mone-\emph{ntur} \\
+\cmidrule{2-4}
+ & \multirow{6}{*}{\rotatebox{90}{\textsc{Imperfectum}}} & mone-\emph{ba}-m & mone-\emph{ba}-r \\
+ & & mone-\emph{ba}-s   & mone-\emph{ba}-ris \\
+ & & mone-\emph{ba}-t   & mone-\emph{ba}-tur \\
+ & & mone-\emph{ba}-mus & mone-\emph{ba}-mur \\
+ & & mone-\emph{ba}-tis & mone-\emph{ba}-mini \\
+ & & mone-\emph{ba}-nt  & mone-\emph{ba}-ntur \\
+\cmidrule{2-4}
+ & \multirow{6}{*}{\rotatebox{90}{\textsc{Futurum Simplex}}} & mone-\emph{b}-o & mone-\emph{b}-or \\
+ & & mone-\emph{b}-\emph{i}-s   & mone-\emph{b}-\emph{e}-ris \\
+ & & mone-\emph{b}-\emph{i}-t   & mone-\emph{b}-\emph{i}-tur \\
+ & & mone-\emph{b}-\emph{i}-mus & mone-\emph{b}-\emph{i}-mur \\
+ & & mone-\emph{b}-\emph{i}-tis & mone-\emph{b}-\emph{i}-mini \\
+ & & mone-\emph{b}-\emph{u}-nt  & mone-\emph{b}-\emph{u}-ntur \\
+\midrule
+\multirow{2}{*}{\textsc{Imperatief}} & & mone & \\
+ & & mone-\emph{te} & \\
+\bottomrule
+\end{tabular}
+\caption{Tweede vervoeging}
+\label{tab:monere}
+\end{table}
+
+\subsection{Derde vervoeging: tegere}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ c | c | l l }
+\toprule
+\multicolumn{4}{c}{\textsc{Tegere}} \\
+\midrule
+ & & \textsc{Actief} & \textsc{Passief} \\
+\midrule
+\textsc{Infinitief} & \textsc{Praesens} & teg-\emph{e}-\emph{re} & teg-\emph{i} \\
+\midrule
+\multirow{18}{*}{\rotatebox{90}{\textsc{Indicatief}}} & \multirow{6}{*}{\rotatebox{90}{\textsc{Praesens}}} & teg-\emph{o} & teg-\emph{or} \\
+ & & teg-\emph{i}-\emph{s}   & teg-\emph{e}-\emph{ris} \\
+ & & teg-\emph{i}-\emph{t}   & teg-\emph{i}-\emph{tur} \\
+ & & teg-\emph{i}-\emph{mus} & teg-\emph{i}-\emph{mur} \\
+ & & teg-\emph{i}-\emph{tis} & teg-\emph{i}-\emph{mini} \\
+ & & teg-\emph{u}-\emph{nt}  & teg-\emph{u}-\emph{ntur} \\
+\cmidrule{2-4}
+ & \multirow{6}{*}{\rotatebox{90}{\textsc{Imperfectum}}} & teg-\emph{eba}-m & teg-\emph{eba}-r \\
+ & & teg-\emph{eba}-s   & teg-\emph{eba}-ris \\
+ & & teg-\emph{eba}-t   & teg-\emph{eba}-tur \\
+ & & teg-\emph{eba}-mus & teg-\emph{eba}-mur \\
+ & & teg-\emph{eba}-tis & teg-\emph{eba}-mini \\
+ & & teg-\emph{eba}-nt  & teg-\emph{eba}-ntur \\
+\cmidrule{2-4}
+ & \multirow{6}{*}{\rotatebox{90}{\textsc{Futurum Simplex}}} & teg-\emph{a}-m & teg-\emph{a}-r \\
+ & & teg-\emph{e}-s   & teg-\emph{e}-ris \\
+ & & teg-\emph{e}-t   & teg-\emph{e}-tur \\
+ & & teg-\emph{e}-mus & teg-\emph{e}-mur \\
+ & & teg-\emph{e}-tis & teg-\emph{e}-mini \\
+ & & teg-\emph{e}-nt  & teg-\emph{e}-ntur \\
+\midrule
+\multirow{2}{*}{\textsc{Imperatief}} & & teg-\emph{e} & \\
+ & & teg-\emph{i}-\emph{te} & \\
+\bottomrule
+\end{tabular}
+\caption{Derde vervoeging}
+\label{tab:tegere}
+\end{table}
+
+\subsection{Vierde vervoeging: audire}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ c | c | l l }
+\toprule
+\multicolumn{4}{c}{\textsc{Audire}} \\
+\midrule
+ & & \textsc{Actief} & \textsc{Passief} \\
+\midrule
+\textsc{Infinitief} & \textsc{Praesens} & audi-\emph{re} & audi-\emph{ri} \\
+\midrule
+\multirow{18}{*}{\rotatebox{90}{\textsc{Indicatief}}} & \multirow{6}{*}{\rotatebox{90}{\textsc{Praesens}}} & audi-\emph{o} & audi-\emph{or} \\
+ & & audi-\emph{s}   & audi-\emph{ris} \\
+ & & audi-\emph{t}   & audi-\emph{tur} \\
+ & & audi-\emph{mus} & audi-\emph{mur} \\
+ & & audi-\emph{tis} & audi-\emph{mini} \\
+ & & audi-\emph{u}-\emph{nt}  & audi-\emph{u}-\emph{ntur} \\
+\cmidrule{2-4}
+ & \multirow{6}{*}{\rotatebox{90}{\textsc{Imperfectum}}} & audi-\emph{eba}-m & audi-\emph{eba}-r \\
+ & & audi-\emph{eba}-s   & audi-\emph{eba}-ris \\
+ & & audi-\emph{eba}-t   & audi-\emph{eba}-tur \\
+ & & audi-\emph{eba}-mus & audi-\emph{eba}-mur \\
+ & & audi-\emph{eba}-tis & audi-\emph{eba}-mini \\
+ & & audi-\emph{eba}-nt  & audi-\emph{eba}-ntur \\
+\cmidrule{2-4}
+ & \multirow{6}{*}{\rotatebox{90}{\textsc{Futurum Simplex}}} & audi-\emph{a}-m & audi-\emph{a}-r \\
+ & & audi-\emph{e}-s   & audi-\emph{e}-ris \\
+ & & audi-\emph{e}-t   & audi-\emph{e}-tur \\
+ & & audi-\emph{e}-mus & audi-\emph{e}-mur \\
+ & & audi-\emph{e}-tis & audi-\emph{e}-mini \\
+ & & audi-\emph{e}-nt  & audi-\emph{e}-ntur \\
+\midrule
+\multirow{2}{*}{\textsc{Imperatief}} & & audi & \\
+ & & audi-\emph{te} & \\
+\bottomrule
+\end{tabular}
+\caption{Vierde vervoeging}
+\label{tab:audire}
+\end{table}
+
+\subsection{Vijfde vervoeging: capere}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ c | c | l l }
+\toprule
+\multicolumn{4}{c}{\textsc{Capere}} \\
+\midrule
+ & & \textsc{Actief} & \textsc{Passief} \\
+\midrule
+\textsc{Infinitief} & \textsc{Praesens} & cape-\emph{re} & capi \\
+\midrule
+\multirow{18}{*}{\rotatebox{90}{\textsc{Indicatief}}} & \multirow{6}{*}{\rotatebox{90}{\textsc{Praesens}}} & capi-\emph{o} & capi-\emph{or} \\
+ & & capi-\emph{s}   & capi-\emph{ris} \\
+ & & capi-\emph{t}   & capi-\emph{tur} \\
+ & & capi-\emph{mus} & capi-\emph{mur} \\
+ & & capi-\emph{tis} & capi-\emph{mini} \\
+ & & capi-\emph{u}-\emph{nt}  & capi-\emph{u}-\emph{ntur} \\
+\cmidrule{2-4}
+ & \multirow{6}{*}{\rotatebox{90}{\textsc{Imperfectum}}} & capi-\emph{eba}-m & capi-\emph{eba}-r \\
+ & & capi-\emph{eba}-s   & capi-\emph{eba}-ris \\
+ & & capi-\emph{eba}-t   & capi-\emph{eba}-tur \\
+ & & capi-\emph{eba}-mus & capi-\emph{eba}-mur \\
+ & & capi-\emph{eba}-tis & capi-\emph{eba}-mini \\
+ & & capi-\emph{eba}-nt  & capi-\emph{eba}-ntur \\
+\cmidrule{2-4}
+ & \multirow{6}{*}{\rotatebox{90}{\textsc{Futurum Simplex}}} & capi-\emph{a}-m & capi-\emph{a}-r \\
+ & & capi-\emph{e}-s   & capi-\emph{e}-ris \\
+ & & capi-\emph{e}-t   & capi-\emph{e}-tur \\
+ & & capi-\emph{e}-mus & capi-\emph{e}-mur \\
+ & & capi-\emph{e}-tis & capi-\emph{e}-mini \\
+ & & capi-\emph{e}-nt  & capi-\emph{e}-ntur \\
+\midrule
+\multirow{2}{*}{\textsc{Imperatief}} & & cape & \\
+ & & capi-\emph{te} & \\
+\bottomrule
+\end{tabular}
+\caption{Vijfde vervoeging}
+\label{tab:capere}
+\end{table}
+
+\end{document}
